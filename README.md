@@ -22,6 +22,8 @@ Este é um projeto simples que mostra um contador na página web. Você pode aum
 * Para aumentar o valor do contador, clique no botão AUMENTAR
 * Para diminuir o valor do contador, clique no botão DIMINUIR
 * Para resetar o valor do contador para zero, clique no botão REINICIALIZAR
+* Para aumentar com um valor aleatório de 1 a 100, clique no botão AUMENTAR ALEATÓRIO
+* Para diminuir com um valor aleatório de 1 a 100, clique no botão DIMINUIR ALEATÓRIO
 
 
 Espero que este exemplo te ajude a escrever o seu próprio README. Se você tiver alguma dúvida ou sugestão, por favor, me avise. 😊
