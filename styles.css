@@ -80,19 +80,8 @@ Global Styles
 
 body {
   font-family: var(--ff-secondary);
- /* 
-  background-image: linear-gradient(45deg, #3198e2, #6D59C0,#B93590, #E33F5F, #FDD579); 
-*/
 
-/*
-  background-image: linear-gradient(45deg, #FCD433, #FE8916, #FF490F, #FF2678, #DF0EC7, #A104EC, #5839FF, #07B6FF, #09D7A6, #13EB4D);
-*/
-
-/*
-  background-image: linear-gradient(45deg,#9AA105, #A28705, #A23704, #044D44, #000000); 
-*/
-
-  background-image: radial-gradient(#9AA105, #A28705, #A23704, #044D44, #000000);
+  background-image: radial-gradient(#ede9d5, #63635e);
  
   /* Definir uma animação chamada "mover" que dura 10 segundos e se repete indefinidamente */
   animation: mover 20ms infinite;
@@ -131,8 +120,9 @@ h4 {
   font-size: 0.875rem;
 }
 p {
+  font-size: 1.25rem;
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color:hsl(360, 67%, 44%);
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -157,7 +147,6 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
 
 /* section */
 .section {
@@ -180,12 +169,6 @@ main {
   place-items: center;
 }
 
-/*
-=============== 
-Counter
-===============
-*/
-
 main {
   min-height: 100vh;
   display: grid;
@@ -193,14 +176,23 @@ main {
 }
 .container {
   text-align: center;
+ /*
   border: 5px solid rgb(181, 175, 175);
   border-radius: 20px / 40px;
+  */
   padding: 40px 50px 40px 50px;
 }
 #value {
   font-size: 6rem;
   font-weight: bold;
 }
+
+#raffle {
+  font-size: 19rem;
+  font-weight: bold;
+  color:hsl(212, 67%, 44%);
+}
+
 .btn {
   text-transform: uppercase;
   background: transparent;
@@ -221,7 +213,6 @@ main {
   background: var(--clr-black);
 }
 
-
 footer {
   position: absolute;
   bottom: 0;
@@ -230,4 +221,49 @@ footer {
   color: #fff; /* Cor do texto no rodapé */
   text-align: center; /* Centraliza o texto */
   padding: 10px 0; /* Espaçamento interno no rodapé */
+}
+
+/* Estilizando as abas */
+.tabs {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.tab {
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: rgb(174, 180, 183);
+}
+/* Estilizando os conteúdos */
+.contents {
+  border: 1px solid black;
+  border-radius: 0 10px 10px 10px;
+  padding: 100px;
+}
+
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+}
+
+.tabs .tab {
+  width: 200px; /* Altere este valor para o tamanho desejado */
+  margin: 0 auto;
+  max-width: 180px;
+}
+
+#raffle {
+  font-size: 8rem;
+  font-weight: bold;
 }
