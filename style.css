@@ -39,6 +39,7 @@ header {
 
 .nav-item {
     margin: 0 15px;
+    text-transform: uppercase;
 }
 
 .nav-link {
@@ -406,7 +407,7 @@ footer {
 
 #size {
   width: 100px;
-  height: 30px;
+  height: 25px;
   text-align: center;
   border: none;
   border-radius: 4px;
@@ -415,7 +416,7 @@ footer {
 
 #min{
   width: 100px;
-  height: 30px;
+  height: 25px;
   text-align: center;
   border: none;
   border-radius: 4px;
@@ -424,7 +425,7 @@ footer {
 
 #max{
   width: 100px;
-  height: 30px;
+  height: 25px;
   text-align: center;
   border: none;
   border-radius: 4px;
