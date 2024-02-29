@@ -1,26 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contador de G&R - Automação</title>
+<html lang="pt-br">
 
-    <!-- styles -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Automação G&R</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1></h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Contador</a></li>
+                    <li class="nav-item"><a href="sorteador.html" class="nav-link">Sorteador</a></li>
+                    <li class="nav-item"><a href="gerador.html" class="nav-link">Gerador de Senha</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="#"></a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Contador</a></li>
+                <li class="nav-item"><a href="sorteador.html" class="nav-link">Sorteador</a></li>
+                <li class="nav-item"><a href="gerador.html" class="nav-link">Gerador de Senha<</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#"></a></button>
+            </div>
+        </div>
+    </header>
     <main>
         <div class="container">
-          <!-- <h1>Contador G&R/Automação</h1> -->
-          <!-- Criando a lista das abas -->
-          <ul class="tabs">
-            <li class="tab active">Contador</li>
-            <li class="tab">Sorteador</li>
-          </ul>
-          <!-- Criando os conteúdos das abas -->
-          <div class="contents">
-            <!-- Conteúdo da aba Contador -->
-            <div class="content active" id="counter">
               <span id="value">0</span>
   
               <div class="button-container">
@@ -30,32 +53,12 @@
                 <button class="btn increase">aumentar</button>
                 <button class="btn random-inc">Aumentar aleatório</button>
               </div>
-            </div>
-
-            <!-- Conteúdo da aba Sorteador -->
-            <div class="content" id="raffle">
-              <!-- <h1>Sorteador de números</h1> -->
-              <p>Digite um intervalo de números e clique em sortear.</p> 
-              <p> 
-                  Mínimo: <input type="number" id="min" value="1" /> 
-                  Máximo: <input type="number" id="max" value="100" /> 
-              </p>
-              <div class="button-container">
-                <button class="btn sortear" id="sortear">Sortear</button>
-                <button class="btn salvar" id="salvar">Salvar resultado</button>
-              </div>             
-              <p>O número sorteado é: </p>
-              <p><span id="resultado">?</span></p>
-              <!-- Adiciona a lista de resultados -->
-              <p><span id="resultadoSalvo">?</span></p>
-          </div>
-        <!-- <a href="sorteador.html" target="_blank">Abrir sorteador em nova aba</a> -->
+        </div>
     </main>
     <footer>
-      <p>© 2023 Eduardo Ferreira. Todos os direitos reservados.</p>
+        © 2023 Eduardo Ferreira. Todos os direitos reservados.
     </footer>
-    <!-- javascript -->
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
-  </body>
+    <script src="js/script.js"></script>
+</body>
+
 </html>
