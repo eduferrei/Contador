@@ -1,28 +1,31 @@
+![Badge Complete](https://img.shields.io/badge/status-developing-blue)
+![Badge Release Date](https://img.shields.io/badge/release%20date-december-red)
+
 # Desafio G&R - Automação
 
-###### Contador
+## Contador
 
 Você pode aumentar ou diminuir o valor do contador clicando nos botões correspondentes. O contador também muda de cor de acordo com o seu valor: verde se for positivo, vermelho se for negativo e preto se for zero.
 
-## Funcionalidades:
+###### Funcionalidades:
 * Mostrar um contador na página web
 * Aumentar ou diminuir o valor do contador clicando nos botões
 * Mudar a cor do contador de acordo com o seu valor
 
 
-###### Sorteador
+## Sorteador
 
 Este é um projeto simples que mostra um sorteador aleatório. Você pode informar um intervalo entre dois valores e solicitar um sorteio.
 
-## Funcionalidades:
+###### Funcionalidades:
 * Mostrar um sorteador aleatório na página web
 
 
-###### Gerador de Senha
+## Gerador de Senha
 
 Este é um projeto simples que mostra um gerador de senha aleatório. Você pode informar o tamanho da senha e quais os tipos de caracteres devem conter na senha.
 
-## Funcionalidades:
+###### Funcionalidades:
 * Mostrar um gerador de senha aleatório
 
 
