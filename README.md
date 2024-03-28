@@ -1,5 +1,4 @@
 ![Badge Complete](https://img.shields.io/badge/status-developing-blue)
-![Badge Release Date](https://img.shields.io/badge/release%20date-december-red)
 
 # Desafio G&R - Automação
 
