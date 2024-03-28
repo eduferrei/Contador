@@ -337,67 +337,11 @@ footer {
   display: flex;
 }
 
-#password_img {
-  width:50px;
-}
 
 #title {
   color: var(--color-neutral-1);
   font-weight: 500;
   margin-bottom: 10px;
-}
-
-/* Password */
-#password_container {
-  width: 100%;
-  max-width: 500px;
-  display: none;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #c2c2c1;
-  color: var(--color-neutral-1);
-  border-radius: 8px;
-  padding: 8px 18px;
-}
-
-#password_container.show {
-  display: flex;
-}
-
-#password {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 1rem;
-  font-weight: bold;
-  
-}
-
-#copy {
-  background-color: transparent;
-  border: none;
-  color: #97958d;
-  height: 40px;
-  width: 30px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: color .4s;
-}
-
-#copy:hover {
-  color: #0a0909;
-}
-
-/* Items */
-#password_items {
-  width: 500px;
-  background-color: var(--color-neutral-2);
-  color: var(--color-neutral-1);
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 18px;
 }
 
 .item {
